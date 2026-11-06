@@ -110,3 +110,36 @@
 - **1 図追加で強くなる**：C4 の「腹／節」機構文（現状は解釈）。
 - **表現を Δ に限定して使う**：C8 の数値群（絶対 R² を見出しに出さない）。
 - **展望でのみ**：C11, C12。
+
+---
+
+# 追補（2026-11-06 17:0x）：核の再定式化 v2、Bishara の位置づけ、査読者三分類
+
+## 9. 核の 1 文 v2（ご主人さま）
+**既知の量子輸送理論を再発明したのではなく、界面の構造レジームに応じて、どの物理情報が未知配置への予測に役立つかを定量化した。**
+→ タイトル候補 1 はそのまま使えるが、アブストの第 1 文と貢献リストの冒頭を、この述語（*quantify which physical information transfers, and in which regime*）に揃える。三種の査読者に共通して読ませるのは、物理モデルの複雑さではなく**予測実験の設計**（D→J の段階構造：未知族生成・分割・リーク排除・欠陥数統制）。
+
+## 10. Bishara (2021) との関係 — 矛盾ではなく構造空間の違い
+- Bishara：**CSL 間**の比較で、抵抗率 ≈ 余剰体積（第一近似）、同一 CSL 内の相変化では大差なし。
+- 本研究：**同一欠陥数・同一平均結合**の配置空間での比較。構造空間が違うので直接は矛盾しない。
+- 実 Cu では原子緩和・自己無撞着な電子応答が配置差を均す可能性がある。逆に特定のモード結合条件では余剰体積で説明できない差が残りうる。
+- **将来の Cu 計算で問うべき形**：「余剰体積で説明した*後に*、モード重なり A_mn と周期伝播（Bloch 割合）は追加情報を持つか」＝ Bishara を基準（null model）にした残差分析。Bishara を否定する研究ではなく、その結果を出発点に次の説明変数を探す研究。
+- **トイでの対応物はすでにある（第3報 C1）**：余剰体積の代理 v を固定し、ボンド強度の算術平均も固定したうえで不均一性 s だけを変えると、v=0.5 で G が 0.146→0.212（+46%）、v=0.7 で +62%、v=0.3 では逆に低下。つまり「余剰体積（と平均結合）を固定しても配置情報は残る」が、このモデルでは成立する。これを本文の Bishara 段落に 1 文で接続する（射程：粒界 1 列モデル、U=8t）。
+
+## 11. 査読者三分類と応答
+| 査読者 | 想定指摘 | 応答（本文のどこで） |
+|---|---|---|
+| 量子輸送理論 | NEGF・T 行列・モード整合・Bloch 伝播は既知（Schep–Bauer、Stiles–Penn、Cserti） | 「新しい輸送理論ではなく、既知の物理量の**予測的有用性**を未知配置で評価した研究」。導入で Cserti・Schep–Bauer を明示的に先行として置く（§E） |
+| 粒界材料科学 | 実 Cu の CSL 構造を計算していない；Bishara では構造差が効かない | 「材料固有の抵抗率予測ではなく、制御されたモデル系で記述子の一般化性能を調べた」。Bishara は null model として展望に組み込む（§10） |
+| 計算科学・ML | 未知族の生成法、分割、特徴量リーク、欠陥数交絡、seed 依存 | D〜J の段階設計を Methods の中心に：族外テスト、M3b は上限比較で予測器ではない、座標保存、5 seed、LOCO、N_def 固定統制（第10報）、失敗した分割の記録（第9報） |
+
+共通して見せるもの＝**予測実験の設計図 1 枚**（Fig.2 を「設計」として描き直す：訓練族／未知族／統制実験の関係図＋各段階で何が増えたか）。
+
+## 12. アブストラクト第 1〜2 文の差し替え案
+> Which physical information about an interface's defect arrangement is needed to predict its conductance for arrangements never seen before? Using a controlled two-dimensional tight-binding model solved with Landauer–NEGF and an exact on-site T-matrix, we answer this by adding descriptors in stages—real-space geometry, structure factor, transverse-mode-resolved defect overlap, and Bloch propagation of the effective unit cell—and testing each on held-out arrangement families with controlled defect counts.
+（以降は §4 のアブスト第 2 文以降を接続）
+
+## 13. カバーレター骨子（3 段落）
+1. 問い＋述語 v2（1 文）＋ Valencia 2018 との差分（黒箱 NN vs 物理記述子の段階追加と族外転移）。
+2. 二機構とレジーム交代の要約（数値 3 つ：0.81→0.885、r=0.76、ΔR² +0.02→+0.18 at fixed N_def）＋ Cserti・Schep–Bauer を先行として認める 1 文。
+3. 射程（2D 単一バンド・弾性）と、Bishara 2021 を null model とする実 Cu への次段階。ATS の読者（理論・シミュレーション・材料の交差）に適する理由。
