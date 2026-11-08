@@ -1,0 +1,7 @@
+σ=0.1: ⟨G⟩/G_DMM(geo) 1.018 | within std(logG): full 0.007  col 0.005  row 0.007 | between std 0.003  total 0.008 | DMM dist 0.574  (119s)
+σ=0.3: ⟨G⟩/G_DMM(geo) 1.059 | within std(logG): full 0.028  col 0.022  row 0.028 | between std 0.016  total 0.033 | DMM dist 0.519  (237s)
+σ=0.5: ⟨G⟩/G_DMM(geo) 1.060 | within std(logG): full 0.047  col 0.036  row 0.044 | between std 0.019  total 0.052 | DMM dist 0.476  (356s)
+σ=0.8: ⟨G⟩/G_DMM(geo) 0.966 | within std(logG): full 0.071  col 0.054  row 0.069 | between std 0.064  total 0.097 | DMM dist 0.472  (473s)
+σ=1.2: ⟨G⟩/G_DMM(geo) 0.800 | within std(logG): full 0.090  col 0.080  row 0.086 | between std 0.147  total 0.174 | DMM dist 0.542  (591s)
+σ=1.6: ⟨G⟩/G_DMM(geo) 0.664 | within std(logG): full 0.113  col 0.095  row 0.107 | between std 0.174  total 0.209 | DMM dist 0.575  (709s)
+done 710s
