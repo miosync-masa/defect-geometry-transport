@@ -1,0 +1,14 @@
+σ=0.25: ⟨G⟩/G_DMM 1.046  dist 0.536  order share 0.76  (79s)
+σ=0.35: ⟨G⟩/G_DMM 1.060  dist 0.510  order share 0.78  (158s)
+σ=0.45: ⟨G⟩/G_DMM 1.063  dist 0.489  order share 0.87  (237s)
+σ=0.55: ⟨G⟩/G_DMM 1.043  dist 0.476  order share 0.76  (316s)
+σ=0.65: ⟨G⟩/G_DMM 1.030  dist 0.466  order share 0.70  (396s)
+σ=0.75: ⟨G⟩/G_DMM 0.973  dist 0.457  order share 0.51  (477s)
+σ=0.85: ⟨G⟩/G_DMM 0.926  dist 0.467  order share 0.35  (557s)
+σ=0.95: ⟨G⟩/G_DMM 0.914  dist 0.473  order share 0.40  (638s)
+
+mountain σ* = 0.411  90% CI [0.37249712964198106, 0.4364646365063333]
+valley   σ* = 0.747  90% CI [0.677126521520894, 0.8475194386424759]
+share=0.5 crossing σ = 0.755  90% CI [0.7256902982320115, 0.8440597789251678]
+DECISION: indicator-dependent band (intervals disjoint)
+done 639s
